@@ -45,5 +45,5 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: 'public'
-          destination: 'my-static-site'
+          destination: 'bucket-jawn'
           parent: false
